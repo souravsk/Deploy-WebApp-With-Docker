@@ -13,23 +13,7 @@ Once you are ready with the web pages or website we can move to the next step
 
 ### Step 2
 
-Now Create a dockerfile with the name
-
-```
-dockerfile
-```
-
-and make sure there is no
-
-```
-.
-```
-
-extension like
-
-```
-.txt
-```
+Now Create a docker file with the name `dockerfile` and make sure there is no `.` extension like `.txt`
 
 It has to be in the same folder where your webpage is there as shown in the below image
 
