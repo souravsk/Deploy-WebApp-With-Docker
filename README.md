@@ -42,23 +42,11 @@ docker build -t test:v1 .
 
 Run this command to build the docker images.
 
-```
--t
-```
+`-t` is a flag that will give the image name
 
-is a flag that will give the image name
+`test` is an image name
 
-```
-test
-```
-
-is an image name
-
-```
-v1
-```
-
-is a tag of the image
+`v1` is a tag of the image
 
 ![assets/img/build.png](assets/img/build.png)
 
@@ -82,7 +70,8 @@ docker run -d -p 80:80 <image ID / image name>:tag
 
 ```
 
-- `d` it means it will run detach mode. The docker cotainer runs in the background of your terminal.
+`d` it means it will run detach mode. The docker cotainer runs in the background of your terminal.
+
 `p` it means we have to give the post to the host and container so the first 80 is for the host and the next 80 is for the docker container
 
 Now if everything is working then you will be able to run your webpage.
