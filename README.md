@@ -79,4 +79,4 @@ Now if everything is working then you will be able to run your webpage.
 ### Step 7
 
 Open the Browser of your choice then write `localhost:80` in your browser address bar and press enter, WOW your website is running.
-![assets/img/dockerimage.png](assets/img/dockerimage.png)
+![assets/img/dockerimage.png](assets/img/page.png)
